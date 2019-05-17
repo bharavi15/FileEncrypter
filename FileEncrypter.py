@@ -29,7 +29,6 @@ def encrypt(filename,key):
 					chunk +=b' ' * (16-(len(chunk) % 16))
 
 				outfile.write(encryptor.encrypt(chunk))
-	rename(filename,filename+'.bak')
 
 #Decryption of files
 def decrypt(filename,key):
