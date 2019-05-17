@@ -27,3 +27,5 @@ Encryption- `python FileEncrypter.py -e filename.txt -p MyPassword`
 
 
 Decryption-`python FileEncrypter.py -d filename.txt.enc -p MyPassword`
+
+**Note-** Encrypted file is saved as `filename.txt.enc`
